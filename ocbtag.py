@@ -39,16 +39,16 @@ def handle_all_message(message):
        bot.reply_to(message,strtp)
        if '⫷[ʘϾḂ]⫸' in f_name:
           a=1
-         elif '⫷[ʘϾḂ]⫸' in l_name:
+       elif '⫷[ʘϾḂ]⫸' in l_name:
            a=1
-      elif 'Group' in f_name:
+       elif 'Group' in f_name:
            a=1
-      elif 'Malshi' in l_name:
+       elif 'Malshi' in l_name:
            a=1
-      else:
+       else:
           a=0
           print (f_name,l_name)
-      if a == 0 :
+       if a == 0 :
          bot.reply_to(message, "Please add ⫷[ʘϾḂ]⫸ to ur user name in order to join ocb groups")
     else:
       if status=='member':
