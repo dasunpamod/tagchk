@@ -37,7 +37,19 @@ def handle_all_message(message):
     print (status)
     if message.chat.type == "private":
        bot.reply_to(message,strtp)
-       chk(f_name,l_name,message,chat_id,user_id)
+       if '⫷[ʘϾḂ]⫸' in f_name:
+          a=1
+         elif '⫷[ʘϾḂ]⫸' in l_name:
+           a=1
+      elif 'Group' in f_name:
+           a=1
+      elif 'Malshi' in l_name:
+           a=1
+      else:
+          a=0
+          print (f_name,l_name)
+      if a == 0 :
+         bot.reply_to(message, "Please add ⫷[ʘϾḂ]⫸ to ur user name in order to join ocb groups")
     else:
       if status=='member':
           chk(f_name,l_name,message,chat_id,user_id)
