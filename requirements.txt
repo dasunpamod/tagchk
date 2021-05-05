@@ -43,7 +43,6 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
 Pygments==2.8.1
 pyTelegramBotAPI==3.7.7
-python-telegram-bot==13.5
 python2==1.2
 pytz==2020.4
 reqs==0.0.2
@@ -55,9 +54,6 @@ semver==2.13.0
 six==1.15.0
 sqlparse==0.4.1
 tabulate==0.8.9
-telebot==0.0.4
-telepot==12.7
-Telethon==1.21.1
 termcolor==1.1.0
 terminaltables==3.1.0
 tornado==6.1
