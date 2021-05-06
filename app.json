@@ -3,7 +3,7 @@
   "description": "This will detect and mute users who havent used your tag on their names on telegram groups",
   "repository": "https://github.com/eXtizi/ocbtag/",
   "logo": "https://yt3.ggpht.com/ytc/AAUvwnhm0nuimbvbItENaonc0Xi-YajeLbprmEw2KMPScg=s88-c-k-c0x00ffffff-no-rj",
-  "keywords": ["python", "Tag", "detector", "pytelegram api"]
+  "keywords": ["python", "Tag", "detector", "pytelegram api"]},
   "env": {
      "BOT_TOKEN": {
       "description": "Your Bot token from @Botfather",
@@ -33,14 +33,5 @@
       "description": "Approved Users IDs separated by ',' ex : 123421454,245245624366,3463463,",
       "value": ""
      }
-   },
-
-
-
-
-
-
-
-
-
+   }
 }
