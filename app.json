@@ -3,36 +3,49 @@
   "description": "This will detect and mute users who havent used your tag on their names on telegram groups",
   "repository": "https://github.com/eXtizi/ocbtag/",
   "logo": "https://yt3.ggpht.com/ytc/AAUvwnhm0nuimbvbItENaonc0Xi-YajeLbprmEw2KMPScg=s88-c-k-c0x00ffffff-no-rj",
-  "keywords": ["python", "Tag", "detector", "pytelegram api"]
-},
+  "keywords": ["telegram", "Tag Checker", "Name Checker","telegram bot","python", "Tag", "detector", "pytelegram api"],
   "env": {
      "BOT_TOKEN": {
       "description": "Your Bot token from @Botfather",
       "value": ""
-     },
-     "API_ID": {
+    },
+    "API_ID": {
       "description": "Your API_ID from https://my.telegram.org/apps ",
       "value": ""
-     },
-     "API_HASH": {
+    },
+    "API_HASH": {
       "description": "Your API_HASH from https://my.telegram.org/apps",
       "value": ""
-     },
-     "TAG": {
-      "description": "Your Group Tag",
+    },
+    "Tag_Check_Group": {
+      "description": "Your Group id where you want to check user's tags(with -100 in front)",
       "value": ""
-     },
-     "NA_O_C": {
+    },
+    "Tag_Name": {
+      "description": "The Tag name you want to set for checking",
+      "value": ""
+    },
+    "NA_O_C": {
       "description": "Name of your community/group",
       "value": ""
-     },
-     "C_ID": {
+    },
+    "C_ID": {
       "description": "Your channel id",
       "value": ""
-     },
-     "AU_ID": {
-      "description": "Approved Users IDs separated by ',' ex : 123421454,245245624366,3463463,",
+    },
+    "AU_ID": {
+      "description": "Approved Users(who doesnt affect the rule) IDs separated by ',' ex : 123421454,245245624366,3463463,",
       "value": ""
-     }
-   }
+    },
+    "Bot_url": {
+      "description": "The bot's telegram link. Ex:-https://t.me/your_bot?start=start Note:- Include '?start=start' at the end of the url!",
+      "value": ""
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
+
