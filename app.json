@@ -8,31 +8,31 @@
      "BOT_TOKEN": {
       "description": "Your Bot token from @Botfather",
       "value": ""
-    },
+     },
      "API_ID": {
       "description": "Your API_ID from https://my.telegram.org/apps ",
       "value": ""
-    },
+     },
      "API_HASH": {
       "description": "Your API_HASH from https://my.telegram.org/apps",
       "value": ""
-    }
+     },
      "TAG": {
       "description": "Your Group Tag",
       "value": ""
-     }
+     },
      "NA_O_C": {
       "description": "Name of your community/group",
       "value": ""
-    }
+     },
      "C_ID": {
       "description": "Your channel id",
       "value": ""
-    }
+     },
      "AU_ID": {
       "description": "Approved Users IDs separated by ',' ex : 123421454,245245624366,3463463,",
       "value": ""
-    }
+     }
    },
 
 
