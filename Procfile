@@ -1,1 +1,1 @@
-worker: python ocbtag.py
+worker: python main.py
