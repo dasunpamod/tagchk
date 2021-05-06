@@ -60,7 +60,7 @@ tornado==6.1
 typing-extensions==3.10.0.0
 tzlocal==2.1
 uritemplate==3.0.1
-urllib3==1.26.2
+urllib3==1.26.4
 virtualenv==20.4.4
 wcwidth==0.2.5
 Werkzeug==1.0.1
